@@ -32,6 +32,7 @@ import { format } from "date-fns";
 import { useLanguage } from "../../../language/useLanguage";
 import strings from "../../../language";
 import Pagination from "../../common/Pagination";
+import { App_config } from "../../../../tailwind.config";
 
 /* ---------- Badge Helpers ---------- */
 const getPriorityBadge = (priority: string, t: any) => {
@@ -403,7 +404,7 @@ export default function ProductListPage() {
         />
       )}
       <div className="mt-8 text-center text-sm text-gray-400">
-        &copy; {new Date().getFullYear()} {strings[language].copyright}
+        &copy; {new Date().getFullYear()} {App_config.brandname} {strings[language].copyright}
       </div>
     </div>
   );
