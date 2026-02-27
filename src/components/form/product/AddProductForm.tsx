@@ -2,7 +2,7 @@
 
 import { useForm } from "react-hook-form";
 import { addDays, startOfDay } from "date-fns";
-import { X, Loader2 } from "lucide-react";
+import { X} from "lucide-react";
 import { useNavigate } from "react-router-dom";
 import { useEffect, useState, useRef } from "react";
 import {
@@ -999,11 +999,11 @@ export default function AddProductForm({
           >
             {isSubmitting ? (
               <div className="flex items-center gap-2">
-                <Loader2 className="w-4 h-4 animate-spin" />
+                
                 <span>
                   {isEdit
                     ? t.products.form.updateOrderButton
-                    : t.products.form.createOrderButton}
+                    : t.products.form.creatingOrderButton}
                 </span>
               </div>
             ) : isEdit ? (

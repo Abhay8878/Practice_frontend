@@ -209,8 +209,9 @@
       "selectState": "Seleccionar estado",
       "selectCity": "Seleccionar ciudad",
       "enter": "Ingresar",
-      "addStaffButton": "Agregar Personal",
+      "addStaffButton": "Invitar al personal",
       "creating": "Creando...",
+      "inviting": "Invitando...",
       "genderOptions": {
         "male": "Masculino",
         "female": "Femenino",
@@ -336,6 +337,8 @@
       "closePreview": "Cerrar vista previa",
       "createOrderButton": "Crear Pedido",
       "updateOrderButton": "Actualizar Pedido",
+      "creatingOrderButton": "Creando...",
+      "updatingOrderButton": "Actualizando...",
       "priorityOptions": {
         "low": "Baja",
         "medium": "Media",

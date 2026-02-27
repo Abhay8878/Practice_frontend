@@ -31,7 +31,6 @@ import strings from "../../../language";
 
 import axios from "axios";
 import type { ApiErrorResponse } from "../../../types/apiError";
-import { Loader2 } from "lucide-react";
 
 type Props = {
   onCreate: (staff: Staff) => void;
@@ -466,7 +465,10 @@ export default function StaffOnboardingForm({ onCreate }: Props) {
                 <FormLabel className="text-black dark:text-white">
                   {t.staff.form.role}
                 </FormLabel>
-                <Select onValueChange={field.onChange} value={field.value || ""}>
+                <Select
+                  onValueChange={field.onChange}
+                  value={field.value || ""}
+                >
                   <FormControl>
                     <SelectTrigger className={selectTriggerClass}>
                       <SelectValue placeholder={t.staff.form.selectRole} />
@@ -702,8 +704,7 @@ export default function StaffOnboardingForm({ onCreate }: Props) {
           >
             {isSubmitting ? (
               <span className="flex items-center gap-2">
-                <Loader2 className="h-4 w-4 animate-spin" />
-                {t.staff.form.creating}
+                {t.staff.form.inviting}
               </span>
             ) : (
               t.staff.form.addStaffButton

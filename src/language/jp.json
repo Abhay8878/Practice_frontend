@@ -209,8 +209,9 @@
       "selectState": "都道府県を選択",
       "selectCity": "市区町村を選択",
       "enter": "入力",
-      "addStaffButton": "スタッフを追加",
+      "addStaffButton": "スタッフを招待",
       "creating": "作成中...",
+      "inviting": "招待中...",
       "genderOptions": {
         "male": "男性",
         "female": "女性",
@@ -336,6 +337,8 @@
       "closePreview": "プレビューを閉じる",
       "createOrderButton": "注文を作成",
       "updateOrderButton": "注文を更新",
+      "creatingOrderButton": "作成中...",
+      "updatingOrderButton": "更新中...",
       "priorityOptions": {
         "low": "低",
         "medium": "中",

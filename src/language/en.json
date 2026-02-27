@@ -206,8 +206,9 @@
       "selectState": "Select state",
       "selectCity": "Select city",
       "enter": "Enter",
-      "addStaffButton": "Add Staff",
+      "addStaffButton": "Invite Staff",
       "creating": "Creating...",
+      "inviting": "Inviting...",
       "genderOptions": {
         "male": "Male",
         "female": "Female",
@@ -301,7 +302,7 @@
       "priority": "Priority",
       "status": "Status",
       "orderDate": "Order Date",
-      "viewModel":"View 3d Model"
+      "viewModel": "View 3d Model"
     },
     "form": {
       "createTitle": "Create Order",
@@ -333,6 +334,8 @@
       "closePreview": "Close preview",
       "createOrderButton": "Create Order",
       "updateOrderButton": "Update Order",
+      "creatingOrderButton": "Creating...",
+      "updatingOrderButton": "Updating...",
       "priorityOptions": {
         "low": "Low",
         "medium": "Medium",
