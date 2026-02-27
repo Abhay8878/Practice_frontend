@@ -1,0 +1,397 @@
+{
+  "navbar": {
+    "logout": "Logout"
+  },
+  "sidebar": {
+    "dashboard": "Dashboard",
+    "patients": "Patients",
+    "staff": "Staff",
+    "chat": "Chat"
+  },
+  "dashboard": {
+    "title": "Dashboard"
+  },
+  "charts": {
+    "orderStatus": {
+      "title": "Order Status",
+      "description": "January 2026",
+      "footerTrending": "Trending up by 5.2%",
+      "footerNote": "Showing total orders for last 1 month",
+      "statuses": {
+        "REJECTED": "Rejected",
+        "PENDING": "Pending",
+        "COMPLETED": "Completed",
+        "ACCEPTED": "Accepted"
+      }
+    },
+    "totalPatients": {
+      "title": "Total Patients",
+      "description": "August 2025 – January 2026",
+      "footerTrending": "Patient growth trend",
+      "footerNote": "Showing total patients for last 6 months",
+      "label": "Total Patients",
+      "months": {
+        "August": "August",
+        "September": "September",
+        "October": "October",
+        "November": "November",
+        "December": "December",
+        "January": "January"
+      }
+    }
+  },
+  "login": {
+    "title": "Doctor Login",
+    "subtitle": "Enter your credentials",
+    "forgotPasswordTitle": "Forgot Password",
+    "forgotPasswordSubtitle": "Enter your email",
+    "resetPasswordTitle": "Reset Password",
+    "email": "Email",
+    "password": "Password",
+    "newPassword": "New Password",
+    "confirmPassword": "Confirm New Password",
+    "loginButton": "Login",
+    "sendResetButton": "Send Reset",
+    "resetPasswordButton": "Reset Password",
+    "forgotPasswordLink": "Forgot Password?",
+    "backToLogin": "Back to login",
+    "passwordsMismatch": "Passwords do not match",
+    "errors": {
+      "loginFailed": "Login failed",
+      "accessDenied": "Access denied. Practice or Team Member users only.",
+      "requestFailed": "Request failed",
+      "resetFailed": "Reset failed",
+      "somethingWrong": "Something went wrong",
+      "passwordMismatch": "Passwords do not match",
+      "passwordTooShort": "Password must be at least 6 characters"
+    }
+  },
+  "patients": {
+    "title": "Patients",
+    "addPatient": "Add Patient",
+    "noPatients": "No patients found",
+    "viewDetails": "Patient Details",
+    "createOrder": "Create Order",
+    "paraBelowOrder": " Fill the form and create new order",
+    "viewProducts": "View Orders",
+    "table": {
+      "name": "Name",
+      "email": "Email",
+      "contact": "Contact",
+      "actions": "Actions"
+    },
+    "details": {
+      "title": "Patient Details",
+      "personalInfo": "Personal Information",
+      "addressDetails": "Address Details",
+      "fullName": "Full Name",
+      "email": "Email",
+      "phoneNumber": "Phone Number",
+      "gender": "Gender",
+      "dateOfBirth": "Date of Birth",
+      "street": "Street",
+      "city": "City",
+      "state": "State",
+      "country": "Country",
+      "countryCode": "Country Code",
+      "zipCode": "Zip Code"
+    },
+    "form": {
+      "title": "Add Patient",
+      "subtitle": "Fill the form and add new patient",
+      "personalInfo": "Personal Information",
+      "addresses": "Addresses",
+      "firstName": "First Name",
+      "middleName": "Middle Name",
+      "lastName": "Last Name",
+      "email": "Email",
+      "contact": "Contact Number",
+      "dateOfBirth": "Date of Birth",
+      "gender": "Gender",
+      "street": "Street",
+      "country": "Country",
+      "countryCode": "Country Code",
+      "state": "State",
+      "city": "City",
+      "zipCode": "Zip Code",
+      "selectGender": "Select gender",
+      "selectCountry": "Select country",
+      "selectCode": "Select code",
+      "selectState": "Select state",
+      "selectCity": "Select city",
+      "pickDate": "Pick a date",
+      "enterEmail": "Enter email",
+      "enterContact": "Enter Contact Number",
+      "enter": "Enter",
+      "addPatientButton": "Add Patient",
+      "creating": "Adding...",
+      "genderOptions": {
+        "male": "Male",
+        "female": "Female",
+        "other": "Other"
+      },
+      "validation": {
+        "firstNameRequired": "First name is required",
+        "lastNameRequired": "Last name is required",
+        "emailRequired": "Email is required",
+        "invalidEmail": "Invalid email",
+        "contactRequired": "Contact is required",
+        "digitsOnly": "Contact number must contain digits only",
+        "minDigits": "Contact number must be at least 10 digits",
+        "maxDigits": "Contact number cannot exceed 15 digits",
+        "invalidContact": "Invalid contact number",
+        "dobRequired": "Date of birth is required",
+        "genderRequired": "Gender is required",
+        "countryRequired": "Country is required",
+        "stateRequired": "State is required",
+        "cityRequired": "City is required",
+        "zipCodeRequired": "Zip code is required"
+      },
+      "errors": {
+        "createFailed": "Failed to create patient. Please try again."
+      }
+    }
+  },
+  "staff": {
+    "title": "Staff",
+    "addStaff": "Add Staff",
+    "inviteStaff": "Invite Staff",
+    "inviteSubtitle": "Fill the form and invite a new staff member",
+    "noStaff": "No staff found",
+    "viewDetails": "View Staff Details",
+    "details": {
+      "title": "Staff Details",
+      "personalInfo": "Personal Information",
+      "addressDetails": "Address Details",
+      "fullName": "Full Name",
+      "email": "Email",
+      "phoneNumber": "Phone Number",
+      "gender": "Gender",
+      "specialization": "Specialization",
+      "role": "Role",
+      "street": "Street",
+      "city": "City",
+      "state": "State",
+      "country": "Country",
+      "countryCode": "Country Code",
+      "zipCode": "Zip Code",
+      "roles": {
+        "admin": "Admin",
+        "staffMember": "Staff Member"
+      }
+    },
+    "form": {
+      "personalInfo": "Personal Information",
+      "professionalInfo": "Professional Information",
+      "addresses": "Addresses",
+      "firstName": "First Name",
+      "middleName": "Middle Name",
+      "lastName": "Last Name",
+      "email": "Email",
+      "phoneNumber": "Phone Number",
+      "gender": "Gender",
+      "specialization": "Specialization",
+      "role": "Role",
+      "street": "Street",
+      "country": "Country",
+      "countryCode": "Country Code",
+      "state": "State",
+      "city": "City",
+      "zipCode": "Zip Code",
+      "selectGender": "Select gender",
+      "selectSpecialization": "Select specialization",
+      "selectRole": "Select role",
+      "selectCountry": "Select country",
+      "selectCode": "Select code",
+      "selectState": "Select state",
+      "selectCity": "Select city",
+      "enter": "Enter",
+      "addStaffButton": "Add Staff",
+      "creating": "Creating...",
+      "genderOptions": {
+        "male": "Male",
+        "female": "Female",
+        "other": "Other"
+      },
+      "specializations": {
+        "orthodontics": "Orthodontics",
+        "endodontics": "Endodontics",
+        "periodontics": "Periodontics",
+        "prosthodontics": "Prosthodontics",
+        "pediatricDentistry": "Pediatric Dentistry",
+        "oralMaxillofacialSurgery": "Oral & Maxillofacial Surgery",
+        "radiology": "Radiology",
+        "pathology": "Pathology",
+        "publicHealth": "Public Health",
+        "generalDentist": "General Dentist",
+        "dentalAnesthesiology": "Dental Anesthesiology",
+        "anesthesiology": "Anesthesiology",
+        "dentistry": "Dentistry"
+      },
+      "roles": {
+        "admin": "Admin",
+        "teamMember": "Team Member"
+      },
+      "validation": {
+        "firstNameRequired": "First name is required",
+        "lastNameRequired": "Last name is required",
+        "emailRequired": "Email is required",
+        "invalidEmail": "Invalid email",
+        "phoneRequired": "Phone number is required",
+        "digitsOnly": "Contact number must contain digits only",
+        "minDigits": "Contact number must be at least 10 digits",
+        "maxDigits": "Contact number cannot exceed 15 digits",
+        "invalidContact": "Invalid contact number",
+        "genderRequired": "Gender is required",
+        "practitionerTypeRequired": "Practitioner type is required",
+        "countryRequired": "Country is required",
+        "stateRequired": "State is required",
+        "cityRequired": "City is required",
+        "zipCodeRequired": "Zip code is required"
+      },
+      "errors": {
+        "createFailed": "Failed to create staff. Please try again.",
+        "loadFailed": "Failed to load staff. Please refresh the page."
+      }
+    },
+    "table": {
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "role": "Role",
+      "actions": "Actions"
+    }
+  },
+  "products": {
+    "title": "Product List",
+    "noProducts": "No products found",
+    "viewDetails": "View Details",
+    "reviewForm": "Review Form",
+    "trackingDetails": "Tracking Details",
+    "table": {
+      "serialNo": "S.No.",
+      "product": "Product",
+      "type": "Type",
+      "priority": "Priority",
+      "status": "Status",
+      "orderDate": "Order Date",
+      "actions": "Actions"
+    },
+    "priority": {
+      "high": "HIGH",
+      "medium": "MEDIUM",
+      "low": "LOW"
+    },
+    "status": {
+      "completed": "COMPLETED",
+      "rejected": "REJECTED",
+      "pending": "PENDING",
+      "accepted": "ACCEPTED",
+      "shipped": "SHIPPED"
+    },
+    "details": {
+      "title": "Order Details",
+      "orderInfo": "Order Information",
+      "referenceImage": "Reference Image",
+      "orderId": "Order ID",
+      "product": "Product",
+      "type": "Type",
+      "shade": "Shade",
+      "toothNumbers": "Tooth Numbers",
+      "priority": "Priority",
+      "status": "Status",
+      "orderDate": "Order Date",
+      "viewModel":"View 3d Model"
+    },
+    "form": {
+      "createTitle": "Create Order",
+      "reviewTitle": "Review Rejected Product",
+      "subtitle": "Fill the form and create new order",
+      "productDetails": "Product Details",
+      "shadeSelection": "Shade Selection",
+      "toothSelection": "Tooth Selection",
+      "orderDetails": "Order Details",
+      "productList": "Product List",
+      "productType": "Product Type",
+      "shade": "Restoration Shade",
+      "selectTeeth": "Select Teeth",
+      "priority": "Priority",
+      "orderDate": "Order Date",
+      "expectedDelivery": "Expected Delivery",
+      "designNotes": "Design Notes",
+      "selectProductList": "Select product list",
+      "selectProductType": "Select product type",
+      "selectProductListFirst": "Select product list first",
+      "selectShade": "Select a shade",
+      "selectedShade": "Selected Shade",
+      "selectedTeeth": "Selected Teeth",
+      "pickDate": "Pick date",
+      "notesPlaceholder": "Add any special instructions or notes...",
+      "noProductLists": "No product lists",
+      "noProductTypes": "No product types",
+      "productPreview": "Product Preview",
+      "closePreview": "Close preview",
+      "createOrderButton": "Create Order",
+      "updateOrderButton": "Update Order",
+      "priorityOptions": {
+        "low": "Low",
+        "medium": "Medium",
+        "high": "High"
+      },
+      "validation": {
+        "productListRequired": "Product list is required",
+        "productTypeRequired": "Product type is required",
+        "shadeRequired": "Shade is required",
+        "toothRequired": "Select at least one tooth",
+        "expectedDeliveryRequired": "Expected delivery date is required"
+      },
+      "teeth": {
+        "upper": "Upper",
+        "lower": "Lower"
+      },
+      "upload3D": "3D Image Upload (Optional) - Max 4",
+      "max3DAlert": "You can only upload up to 4 3D images.",
+      "add3DButton": "Add 3D Image",
+      "modelPreview": "3D Model Preview",
+      "manageExisting3D": "Manage Existing 3D Images:",
+      "supportedFormats": "Supported formats: STL, PLY."
+    },
+    "tracking": {
+      "title": "Tracking Details",
+      "trackingId": "Tracking ID",
+      "from": "From",
+      "inTransit": "In Transit",
+      "destination": "Destination",
+      "status": "Status",
+      "pending": "Pending",
+      "lastUpdatedOn": "Last updated on",
+      "currentStatus": "Current Status",
+      "loadingTracking": "Loading tracking information...",
+      "noTrackingInfo": "No tracking information available",
+      "orderPendingTitle": "Order Pending Acceptance",
+      "orderPendingDescription": "This order is awaiting acceptance from the manufacturer. Tracking information will be available once the order is accepted and shipped.",
+      "orderId": "Order ID",
+      "moreEventsIn": "more events in",
+      "trackingdetails": "Tracking Details"
+    }
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "view": "View",
+    "close": "Close",
+    "required": "*",
+    "noData": "No data available",
+    "actions": "Actions",
+    "showingEntries": "Showing {start} to {end} of {total} entries",
+    "previous": "Previous",
+    "next": "Next"
+  },
+  "modelViewer": "3D Model Viewer",
+  "copyright": "All rights reserved."
+}

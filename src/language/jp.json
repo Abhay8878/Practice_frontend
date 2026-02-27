@@ -1,0 +1,399 @@
+{
+  "app": {
+    "title": "AOAドクター"
+  },
+  "navbar": {
+    "logout": "ログアウト"
+  },
+  "sidebar": {
+    "dashboard": "ダッシュボード",
+    "patients": "患者",
+    "staff": "スタッフ",
+    "chat": "チャット"
+  },
+  "dashboard": {
+    "title": "ダッシュボード"
+  },
+  "charts": {
+    "orderStatus": {
+      "title": "注文ステータス",
+      "description": "2026年1月",
+      "footerTrending": "5.2%の上昇傾向",
+      "footerNote": "過去1ヶ月の合計注文数を表示",
+      "statuses": {
+        "REJECTED": "却下",
+        "PENDING": "保留中",
+        "COMPLETED": "完了",
+        "ACCEPTED": "承認済み"
+      }
+    },
+    "totalPatients": {
+      "title": "患者総数",
+      "description": "2025年8月 – 2026年1月",
+      "footerTrending": "患者増加傾向",
+      "footerNote": "過去6ヶ月の患者総数を表示",
+      "label": "患者総数",
+      "months": {
+        "August": "8月",
+        "September": "9月",
+        "October": "10月",
+        "November": "11月",
+        "December": "12月",
+        "January": "1月"
+      }
+    }
+  },
+  "login": {
+    "title": "医師ログイン",
+    "subtitle": "認証情報を入力してください",
+    "forgotPasswordTitle": "パスワードを忘れた場合",
+    "forgotPasswordSubtitle": "メールアドレスを入力してください",
+    "resetPasswordTitle": "パスワードをリセット",
+    "email": "メールアドレス",
+    "password": "パスワード",
+    "newPassword": "新しいパスワード",
+    "confirmPassword": "新しいパスワードを確認",
+    "loginButton": "ログイン",
+    "sendResetButton": "リセットを送信",
+    "resetPasswordButton": "パスワードをリセット",
+    "forgotPasswordLink": "パスワードをお忘れですか？",
+    "backToLogin": "ログインに戻る",
+    "passwordsMismatch": "パスワードが一致しません",
+    "errors": {
+      "loginFailed": "ログインに失敗しました",
+      "accessDenied": "アクセスが拒否されました。診療所またはチームメンバーのユーザーのみ。",
+      "requestFailed": "リクエストが失敗しました",
+      "resetFailed": "リセットに失敗しました",
+      "somethingWrong": "問題が発生しました",
+      "passwordMismatch": "パスワードが一致しません",
+      "passwordTooShort": "パスワードは6文字以上である必要があります"
+    }
+  },
+  "patients": {
+    "title": "患者",
+    "addPatient": "患者を追加",
+    "noPatients": "患者が見つかりません",
+    "viewDetails": "患者の詳細を表示",
+    "createOrder": "注文を作成",
+    "paraBelowOrder": " フォームに記入して新しい注文を作成",
+    "viewProducts": "注文を見る",
+    "table": {
+      "name": "名前",
+      "email": "メールアドレス",
+      "contact": "連絡先",
+      "actions": "操作"
+    },
+    "details": {
+      "title": "患者の詳細",
+      "personalInfo": "個人情報",
+      "addressDetails": "住所の詳細",
+      "fullName": "氏名",
+      "email": "メールアドレス",
+      "phoneNumber": "電話番号",
+      "gender": "性別",
+      "dateOfBirth": "生年月日",
+      "street": "番地",
+      "city": "市区町村",
+      "state": "都道府県",
+      "country": "国",
+      "countryCode": "国コード",
+      "zipCode": "郵便番号"
+    },
+    "form": {
+      "title": "患者を追加",
+      "subtitle": "フォームに記入して新しい患者を追加",
+      "personalInfo": "個人情報",
+      "addresses": "住所",
+      "firstName": "名",
+      "middleName": "ミドルネーム",
+      "lastName": "姓",
+      "email": "メールアドレス",
+      "contact": "連絡先番号",
+      "dateOfBirth": "生年月日",
+      "gender": "性別",
+      "street": "番地",
+      "country": "国",
+      "countryCode": "国コード",
+      "state": "都道府県",
+      "city": "市区町村",
+      "zipCode": "郵便番号",
+      "selectGender": "性別を選択",
+      "selectCountry": "国を選択",
+      "selectCode": "コードを選択",
+      "selectState": "都道府県を選択",
+      "selectCity": "市区町村を選択",
+      "pickDate": "日付を選択",
+      "enterEmail": "メールアドレスを入力",
+      "enterContact": "連絡先番号を入力",
+      "enter": "入力",
+      "addPatientButton": "患者を追加",
+      "creating": "作成中...",
+      "genderOptions": {
+        "male": "男性",
+        "female": "女性",
+        "other": "その他"
+      },
+      "validation": {
+        "firstNameRequired": "名は必須です",
+        "lastNameRequired": "姓は必須です",
+        "emailRequired": "メールアドレスは必須です",
+        "invalidEmail": "無効なメールアドレス",
+        "contactRequired": "連絡先は必須です",
+        "digitsOnly": "連絡先番号は数字のみである必要があります",
+        "minDigits": "連絡先番号は10桁以上である必要があります",
+        "maxDigits": "連絡先番号は15桁を超えることはできません",
+        "invalidContact": "無効な連絡先番号",
+        "dobRequired": "生年月日は必須です",
+        "genderRequired": "性別は必須です",
+        "countryRequired": "国は必須です",
+        "stateRequired": "都道府県は必須です",
+        "cityRequired": "市区町村は必須です",
+        "zipCodeRequired": "郵便番号は必須です"
+      },
+      "errors": {
+        "createFailed": "患者の作成に失敗しました。もう一度お試しください。"
+      }
+    }
+  },
+  "staff": {
+    "title": "スタッフ",
+    "addStaff": "スタッフを追加",
+    "inviteStaff": "スタッフを招待",
+    "inviteSubtitle": "フォームに記入して新しいスタッフメンバーを招待",
+    "noStaff": "スタッフが見つかりません",
+    "viewDetails": "スタッフの詳細を表示",
+    "details": {
+      "title": "スタッフの詳細",
+      "personalInfo": "個人情報",
+      "addressDetails": "住所の詳細",
+      "fullName": "氏名",
+      "email": "メールアドレス",
+      "phoneNumber": "電話番号",
+      "gender": "性別",
+      "specialization": "専門分野",
+      "role": "役割",
+      "street": "番地",
+      "city": "市区町村",
+      "state": "都道府県",
+      "country": "国",
+      "countryCode": "国コード",
+      "zipCode": "郵便番号",
+      "roles": {
+        "admin": "管理者",
+        "staffMember": "スタッフメンバー"
+      }
+    },
+    "form": {
+      "personalInfo": "個人情報",
+      "professionalInfo": "専門情報",
+      "addresses": "住所",
+      "firstName": "名",
+      "middleName": "ミドルネーム",
+      "lastName": "姓",
+      "email": "メールアドレス",
+      "phoneNumber": "電話番号",
+      "gender": "性別",
+      "specialization": "専門分野",
+      "role": "役割",
+      "street": "番地",
+      "country": "国",
+      "countryCode": "国コード",
+      "state": "都道府県",
+      "city": "市区町村",
+      "zipCode": "郵便番号",
+      "selectGender": "性別を選択",
+      "selectSpecialization": "専門分野を選択",
+      "selectRole": "役割を選択",
+      "selectCountry": "国を選択",
+      "selectCode": "コードを選択",
+      "selectState": "都道府県を選択",
+      "selectCity": "市区町村を選択",
+      "enter": "入力",
+      "addStaffButton": "スタッフを追加",
+      "creating": "作成中...",
+      "genderOptions": {
+        "male": "男性",
+        "female": "女性",
+        "other": "その他"
+      },
+      "specializations": {
+        "orthodontics": "矯正歯科",
+        "endodontics": "歯内療法",
+        "periodontics": "歯周病学",
+        "prosthodontics": "補綴歯科",
+        "pediatricDentistry": "小児歯科",
+        "oralMaxillofacialSurgery": "口腔外科",
+        "radiology": "放射線科",
+        "pathology": "病理学",
+        "publicHealth": "公衆衛生",
+        "generalDentist": "一般歯科医",
+        "anesthesiology": "麻酔科",
+        "dentalAnesthesiology": "歯科麻酔学",
+        "dentistry": "歯学"
+      },
+      "roles": {
+        "admin": "管理者",
+        "teamMember": "チームメンバー"
+      },
+      "validation": {
+        "firstNameRequired": "名は必須です",
+        "lastNameRequired": "姓は必須です",
+        "emailRequired": "メールアドレスは必須です",
+        "invalidEmail": "無効なメールアドレス",
+        "phoneRequired": "電話番号は必須です",
+        "digitsOnly": "連絡先番号は数字のみである必要があります",
+        "minDigits": "連絡先番号は10桁以上である必要があります",
+        "maxDigits": "連絡先番号は15桁を超えることはできません",
+        "invalidContact": "無効な連絡先番号",
+        "genderRequired": "性別は必須です",
+        "practitionerTypeRequired": "医療従事者のタイプは必須です",
+        "countryRequired": "国は必須です",
+        "stateRequired": "都道府県は必須です",
+        "cityRequired": "市区町村は必須です",
+        "zipCodeRequired": "郵便番号は必須です"
+      },
+      "errors": {
+        "createFailed": "スタッフの作成に失敗しました。もう一度お試しください。",
+        "loadFailed": "スタッフの読み込みに失敗しました。ページを更新してください。"
+      }
+    },
+    "table": {
+      "name": "名前",
+      "email": "メールアドレス",
+      "phone": "電話",
+      "role": "役割",
+      "actions": "操作"
+    }
+  },
+  "products": {
+    "title": "製品リスト",
+    "noProducts": "製品が見つかりません",
+    "viewDetails": "詳細を表示",
+    "reviewForm": "フォームを確認",
+    "trackingDetails": "追跡詳細",
+    "table": {
+      "serialNo": "番号",
+      "product": "製品",
+      "type": "タイプ",
+      "priority": "優先度",
+      "status": "ステータス",
+      "orderDate": "注文日",
+      "actions": "操作"
+    },
+    "priority": {
+      "high": "高",
+      "medium": "中",
+      "low": "低"
+    },
+    "status": {
+      "completed": "完了",
+      "rejected": "却下",
+      "pending": "保留中",
+      "accepted": "承認済み",
+      "shipped": "配送済み"
+    },
+    "details": {
+      "title": "注文の詳細",
+      "orderInfo": "注文情報",
+      "referenceImage": "参照画像",
+      "orderId": "注文ID",
+      "product": "製品",
+      "type": "タイプ",
+      "shade": "シェード",
+      "toothNumbers": "歯番号",
+      "priority": "優先度",
+      "status": "ステータス",
+      "orderDate": "注文日",
+      "viewModel": "3Dモデルを見る"
+    },
+    "form": {
+      "createTitle": "注文を作成",
+      "reviewTitle": "却下された製品を確認",
+      "subtitle": "フォームに記入して新しい注文を作成",
+      "productDetails": "製品の詳細",
+      "shadeSelection": "シェードの選択",
+      "toothSelection": "歯の選択",
+      "orderDetails": "注文の詳細",
+      "productList": "製品リスト",
+      "productType": "製品タイプ",
+      "shade": "修復シェード",
+      "selectTeeth": "歯を選択",
+      "priority": "優先度",
+      "orderDate": "注文日",
+      "expectedDelivery": "予定配達日",
+      "designNotes": "デザインノート",
+      "selectProductList": "製品リストを選択",
+      "selectProductType": "製品タイプを選択",
+      "selectProductListFirst": "最初に製品リストを選択",
+      "selectShade": "シェードを選択",
+      "selectedShade": "選択されたシェード",
+      "selectedTeeth": "選択された歯",
+      "pickDate": "日付を選択",
+      "notesPlaceholder": "特別な指示やメモを追加...",
+      "noProductLists": "製品リストがありません",
+      "noProductTypes": "製品タイプがありません",
+      "productPreview": "製品プレビュー",
+      "closePreview": "プレビューを閉じる",
+      "createOrderButton": "注文を作成",
+      "updateOrderButton": "注文を更新",
+      "priorityOptions": {
+        "low": "低",
+        "medium": "中",
+        "high": "高"
+      },
+      "validation": {
+        "productListRequired": "製品リストは必須です",
+        "productTypeRequired": "製品タイプは必須です",
+        "shadeRequired": "シェードは必須です",
+        "toothRequired": "少なくとも1つの歯を選択してください",
+        "expectedDeliveryRequired": "予定配達日は必須です"
+      },
+      "teeth": {
+        "upper": "上顎",
+        "lower": "下顎"
+      },
+      "upload3D": "3D画像アップロード (オプション) - 最大4つ",
+      "max3DAlert": "アップロードできる3D画像は最大4つまでです。",
+      "add3DButton": "3D画像を追加",
+      "modelPreview": "3Dモデルプレビュー",
+      "manageExisting3D": "既存の3D画像を管理する:",
+      "supportedFormats": "サポートされている形式: STL, PLY."
+    },
+    "tracking": {
+      "title": "追跡詳細",
+      "trackingId": "追跡ID",
+      "from": "出発地",
+      "inTransit": "輸送中",
+      "destination": "目的地",
+      "status": "ステータス",
+      "pending": "保留中",
+      "lastUpdatedOn": "最終更新日",
+      "currentStatus": "現在のステータス",
+      "loadingTracking": "追跡情報を読み込み中...",
+      "noTrackingInfo": "追跡情報はありません",
+      "orderPendingTitle": "注文承認待ち",
+      "orderPendingDescription": "この注文はメーカーの承認を待っています。注文が承認され出荷されると、追跡情報が利用可能になります。",
+      "orderId": "注文ID",
+      "moreEventsIn": "件の追加イベント"
+    }
+  },
+  "common": {
+    "loading": "読み込み中...",
+    "error": "エラー",
+    "success": "成功",
+    "cancel": "キャンセル",
+    "save": "保存",
+    "delete": "削除",
+    "edit": "編集",
+    "view": "表示",
+    "close": "閉じる",
+    "required": "*",
+    "noData": "データがありません",
+    "actions": "操作",
+    "showingEntries": "{total} 件中 {start} から {end} まで表示",
+    "previous": "前へ",
+    "next": "次へ"
+  },
+  "modelViewer": "3Dモデルビューア",
+  "copyright": " 全著作権所有。"
+}

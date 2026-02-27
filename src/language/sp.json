@@ -1,0 +1,399 @@
+{
+  "app": {
+    "title": "Doctor AOA"
+  },
+  "navbar": {
+    "logout": "Cerrar Sesión"
+  },
+  "sidebar": {
+    "dashboard": "Panel de Control",
+    "patients": "Pacientes",
+    "staff": "Personal",
+    "chat": "Chat"
+  },
+  "dashboard": {
+    "title": "Panel de Control"
+  },
+  "charts": {
+    "orderStatus": {
+      "title": "Estado de Pedidos",
+      "description": "Enero 2026",
+      "footerTrending": "Tendencia al alza del 5.2%",
+      "footerNote": "Mostrando pedidos totales del último mes",
+      "statuses": {
+        "REJECTED": "Rechazado",
+        "PENDING": "Pendiente",
+        "COMPLETED": "Completado",
+        "ACCEPTED": "Aceptado"
+      }
+    },
+    "totalPatients": {
+      "title": "Total de Pacientes",
+      "description": "Agosto 2025 – Enero 2026",
+      "footerTrending": "Tendencia de crecimiento de pacientes",
+      "footerNote": "Mostrando pacientes totales de los últimos 6 meses",
+      "label": "Total de Pacientes",
+      "months": {
+        "August": "Agosto",
+        "September": "Septiembre",
+        "October": "Octubre",
+        "November": "Noviembre",
+        "December": "Diciembre",
+        "January": "Enero"
+      }
+    }
+  },
+  "login": {
+    "title": "Inicio de Sesión de Doctor",
+    "subtitle": "Ingrese sus credenciales",
+    "forgotPasswordTitle": "Olvidé mi Contraseña",
+    "forgotPasswordSubtitle": "Ingrese su correo electrónico",
+    "resetPasswordTitle": "Restablecer Contraseña",
+    "email": "Correo Electrónico",
+    "password": "Contraseña",
+    "newPassword": "Nueva Contraseña",
+    "confirmPassword": "Confirmar Nueva Contraseña",
+    "loginButton": "Iniciar Sesión",
+    "sendResetButton": "Enviar Restablecimiento",
+    "resetPasswordButton": "Restablecer Contraseña",
+    "forgotPasswordLink": "¿Olvidó su Contraseña?",
+    "backToLogin": "Volver al inicio de sesión",
+    "passwordsMismatch": "Las contraseñas no coinciden",
+    "errors": {
+      "loginFailed": "Error al iniciar sesión",
+      "accessDenied": "Acceso denegado. Solo usuarios de Práctica o Miembros del Equipo.",
+      "requestFailed": "Solicitud fallida",
+      "resetFailed": "Restablecimiento fallido",
+      "somethingWrong": "Algo salió mal",
+      "passwordMismatch": "Las contraseñas no coinciden",
+      "passwordTooShort": "La contraseña debe tener al menos 6 caracteres"
+    }
+  },
+  "patients": {
+    "title": "Pacientes",
+    "addPatient": "Agregar Paciente",
+    "noPatients": "No se encontraron pacientes",
+    "viewDetails": "Ver Detalles del Paciente",
+    "createOrder": "Crear Pedido",
+    "paraBelowOrder": " Complete el formulario y cree un nuevo pedido",
+    "viewProducts": "Ver pedidos",
+    "table": {
+      "name": "Nombre",
+      "email": "Correo Electrónico",
+      "contact": "Contacto",
+      "actions": "Acciones"
+    },
+    "details": {
+      "title": "Detalles del Paciente",
+      "personalInfo": "Información Personal",
+      "addressDetails": "Detalles de Dirección",
+      "fullName": "Nombre Completo",
+      "email": "Correo Electrónico",
+      "phoneNumber": "Número de Teléfono",
+      "gender": "Género",
+      "dateOfBirth": "Fecha de Nacimiento",
+      "street": "Calle",
+      "city": "Ciudad",
+      "state": "Estado",
+      "country": "País",
+      "countryCode": "Código de País",
+      "zipCode": "Código Postal"
+    },
+    "form": {
+      "title": "Agregar Paciente",
+      "subtitle": "Complete el formulario y agregue un nuevo paciente",
+      "personalInfo": "Información Personal",
+      "addresses": "Direcciones",
+      "firstName": "Nombre",
+      "middleName": "Segundo Nombre",
+      "lastName": "Apellido",
+      "email": "Correo Electrónico",
+      "contact": "Número de Contacto",
+      "dateOfBirth": "Fecha de Nacimiento",
+      "gender": "Género",
+      "street": "Calle",
+      "country": "País",
+      "countryCode": "Código de País",
+      "state": "Estado",
+      "city": "Ciudad",
+      "zipCode": "Código Postal",
+      "selectGender": "Seleccionar género",
+      "selectCountry": "Seleccionar país",
+      "selectCode": "Seleccionar código",
+      "selectState": "Seleccionar estado",
+      "selectCity": "Seleccionar ciudad",
+      "pickDate": "Seleccionar una fecha",
+      "enterEmail": "Ingresar correo electrónico",
+      "enterContact": "Ingresar número de contacto",
+      "enter": "Ingresar",
+      "addPatientButton": "Agregar Paciente",
+      "creating": "Creando...",
+      "genderOptions": {
+        "male": "Masculino",
+        "female": "Femenino",
+        "other": "Otro"
+      },
+      "validation": {
+        "firstNameRequired": "El nombre es obligatorio",
+        "lastNameRequired": "El apellido es obligatorio",
+        "emailRequired": "El correo electrónico es obligatorio",
+        "invalidEmail": "Correo electrónico inválido",
+        "contactRequired": "El contacto es obligatorio",
+        "digitsOnly": "El número de contacto debe contener solo dígitos",
+        "minDigits": "El número de contacto debe tener al menos 10 dígitos",
+        "maxDigits": "El número de contacto no puede exceder 15 dígitos",
+        "invalidContact": "Número de contacto inválido",
+        "dobRequired": "La fecha de nacimiento es obligatoria",
+        "genderRequired": "El género es obligatorio",
+        "countryRequired": "El país es obligatorio",
+        "stateRequired": "El estado es obligatorio",
+        "cityRequired": "La ciudad es obligatoria",
+        "zipCodeRequired": "El código postal es obligatorio"
+      },
+      "errors": {
+        "createFailed": "Error al crear el paciente. Por favor, inténtelo de nuevo."
+      }
+    }
+  },
+  "staff": {
+    "title": "Personal",
+    "addStaff": "Agregar Personal",
+    "inviteStaff": "Invitar Personal",
+    "inviteSubtitle": "Complete el formulario e invite a un nuevo miembro del personal",
+    "noStaff": "No se encontró personal",
+    "viewDetails": "Ver Detalles del Personal",
+    "details": {
+      "title": "Detalles del Personal",
+      "personalInfo": "Información Personal",
+      "addressDetails": "Detalles de Dirección",
+      "fullName": "Nombre Completo",
+      "email": "Correo Electrónico",
+      "phoneNumber": "Número de Teléfono",
+      "gender": "Género",
+      "specialization": "Especialización",
+      "role": "Rol",
+      "street": "Calle",
+      "city": "Ciudad",
+      "state": "Estado",
+      "country": "País",
+      "countryCode": "Código de País",
+      "zipCode": "Código Postal",
+      "roles": {
+        "admin": "Administrador",
+        "staffMember": "Miembro del Personal"
+      }
+    },
+    "form": {
+      "personalInfo": "Información Personal",
+      "professionalInfo": "Información Profesional",
+      "addresses": "Direcciones",
+      "firstName": "Nombre",
+      "middleName": "Segundo Nombre",
+      "lastName": "Apellido",
+      "email": "Correo Electrónico",
+      "phoneNumber": "Número de Teléfono",
+      "gender": "Género",
+      "specialization": "Especialización",
+      "role": "Rol",
+      "street": "Calle",
+      "country": "País",
+      "countryCode": "Código de País",
+      "state": "Estado",
+      "city": "Ciudad",
+      "zipCode": "Código Postal",
+      "selectGender": "Seleccionar género",
+      "selectSpecialization": "Seleccionar especialización",
+      "selectRole": "Seleccionar rol",
+      "selectCountry": "Seleccionar país",
+      "selectCode": "Seleccionar código",
+      "selectState": "Seleccionar estado",
+      "selectCity": "Seleccionar ciudad",
+      "enter": "Ingresar",
+      "addStaffButton": "Agregar Personal",
+      "creating": "Creando...",
+      "genderOptions": {
+        "male": "Masculino",
+        "female": "Femenino",
+        "other": "Otro"
+      },
+      "specializations": {
+        "orthodontics": "Ortodoncia",
+        "endodontics": "Endodoncia",
+        "periodontics": "Periodoncia",
+        "prosthodontics": "Prostodoncia",
+        "pediatricDentistry": "Odontopediatría",
+        "oralMaxillofacialSurgery": "Cirugía Oral y Maxilofacial",
+        "radiology": "Radiología",
+        "pathology": "Patología",
+        "publicHealth": "Salud Pública",
+        "anesthesiology": "Anestesiología",
+        "generalDentist": "Dentista general",
+        "dentalAnesthesiology": "Anestesiología dental",
+        "dentistry": "Odontología"
+      },
+      "roles": {
+        "admin": "Administrador",
+        "teamMember": "Miembro del Equipo"
+      },
+      "validation": {
+        "firstNameRequired": "El nombre es obligatorio",
+        "lastNameRequired": "El apellido es obligatorio",
+        "emailRequired": "El correo electrónico es obligatorio",
+        "invalidEmail": "Correo electrónico inválido",
+        "phoneRequired": "El número de teléfono es obligatorio",
+        "digitsOnly": "El número de contacto debe contener solo dígitos",
+        "minDigits": "El número de contacto debe tener al menos 10 dígitos",
+        "maxDigits": "El número de contacto no puede exceder 15 dígitos",
+        "invalidContact": "Número de contacto inválido",
+        "genderRequired": "El género es obligatorio",
+        "practitionerTypeRequired": "El tipo de profesional es obligatorio",
+        "countryRequired": "El país es obligatorio",
+        "stateRequired": "El estado es obligatorio",
+        "cityRequired": "La ciudad es obligatoria",
+        "zipCodeRequired": "El código postal es obligatorio"
+      },
+      "errors": {
+        "createFailed": "Error al crear el personal. Por favor, inténtelo de nuevo.",
+        "loadFailed": "Error al cargar el personal. Por favor, actualice la página."
+      }
+    },
+    "table": {
+      "name": "Nombre",
+      "email": "Correo Electrónico",
+      "phone": "Teléfono",
+      "role": "Rol",
+      "actions": "Acciones"
+    }
+  },
+  "products": {
+    "title": "Lista de Productos",
+    "noProducts": "No se encontraron productos",
+    "viewDetails": "Ver Detalles",
+    "reviewForm": "Revisar Formulario",
+    "trackingDetails": "Detalles de seguimiento",
+    "table": {
+      "serialNo": "N.º",
+      "product": "Producto",
+      "type": "Tipo",
+      "priority": "Prioridad",
+      "status": "Estado",
+      "orderDate": "Fecha de Pedido",
+      "actions": "Acciones"
+    },
+    "priority": {
+      "high": "ALTA",
+      "medium": "MEDIA",
+      "low": "BAJA"
+    },
+    "status": {
+      "completed": "COMPLETADO",
+      "rejected": "RECHAZADO",
+      "pending": "PENDIENTE",
+      "accepted": "ACEPTADO",
+      "shipped": "ENVIADO"
+    },
+    "details": {
+      "title": "Detalles del Pedido",
+      "orderInfo": "Información del Pedido",
+      "referenceImage": "Imagen de Referencia",
+      "orderId": "ID de Pedido",
+      "product": "Producto",
+      "type": "Tipo",
+      "shade": "Tonalidad",
+      "toothNumbers": "Números de Dientes",
+      "priority": "Prioridad",
+      "status": "Estado",
+      "orderDate": "Fecha de Pedido",
+      "viewModel": "Ver modelo 3D"
+    },
+    "form": {
+      "createTitle": "Crear Pedido",
+      "reviewTitle": "Revisar Producto Rechazado",
+      "subtitle": "Complete el formulario y cree un nuevo pedido",
+      "productDetails": "Detalles del Producto",
+      "shadeSelection": "Selección de Tonalidad",
+      "toothSelection": "Selección de Dientes",
+      "orderDetails": "Detalles del Pedido",
+      "productList": "Lista de Productos",
+      "productType": "Tipo de Producto",
+      "shade": "Tonalidad de Restauración",
+      "selectTeeth": "Seleccionar Dientes",
+      "priority": "Prioridad",
+      "orderDate": "Fecha de Pedido",
+      "expectedDelivery": "Entrega Esperada",
+      "designNotes": "Notas de Diseño",
+      "selectProductList": "Seleccionar lista de productos",
+      "selectProductType": "Seleccionar tipo de producto",
+      "selectProductListFirst": "Primero seleccione la lista de productos",
+      "selectShade": "Seleccionar una tonalidad",
+      "selectedShade": "Tonalidad Seleccionada",
+      "selectedTeeth": "Dientes Seleccionados",
+      "pickDate": "Seleccionar fecha",
+      "notesPlaceholder": "Agregue instrucciones especiales o notas...",
+      "noProductLists": "No hay listas de productos",
+      "noProductTypes": "No hay tipos de productos",
+      "productPreview": "Vista Previa del Producto",
+      "closePreview": "Cerrar vista previa",
+      "createOrderButton": "Crear Pedido",
+      "updateOrderButton": "Actualizar Pedido",
+      "priorityOptions": {
+        "low": "Baja",
+        "medium": "Media",
+        "high": "Alta"
+      },
+      "validation": {
+        "productListRequired": "La lista de productos es obligatoria",
+        "productTypeRequired": "El tipo de producto es obligatorio",
+        "shadeRequired": "La tonalidad es obligatoria",
+        "toothRequired": "Seleccione al menos un diente",
+        "expectedDeliveryRequired": "La fecha de entrega esperada es obligatoria"
+      },
+      "teeth": {
+        "upper": "Superior",
+        "lower": "Inferior"
+      },
+      "upload3D": "Carga de imagen 3D (Opcional) - Máx 4",
+      "max3DAlert": "Solo puede cargar hasta 4 imágenes 3D.",
+      "add3DButton": "Agregar imagen 3D",
+      "modelPreview": "Vista previa del modelo 3D",
+      "manageExisting3D": "Gestionar imágenes 3D existentes:",
+      "supportedFormats": "Formatos soportados: STL, PLY."
+    },
+    "tracking": {
+      "title": "Detalles de seguimiento",
+      "trackingId": "ID de seguimiento",
+      "from": "Origen",
+      "inTransit": "En tránsito",
+      "destination": "Destino",
+      "status": "Estado",
+      "pending": "Pendiente",
+      "lastUpdatedOn": "Última actualización el",
+      "currentStatus": "Estado actual",
+      "loadingTracking": "Cargando información de seguimiento...",
+      "noTrackingInfo": "No hay información de seguimiento disponible",
+      "orderPendingTitle": "Pedido pendiente de aceptación",
+      "orderPendingDescription": "Este pedido está esperando la aceptación del fabricante. La información de seguimiento estará disponible una vez que el pedido sea aceptado y enviado.",
+      "orderId": "ID de pedido",
+      "moreEventsIn": "más eventos en"
+    }
+  },
+  "common": {
+    "loading": "Cargando...",
+    "error": "Error",
+    "success": "Éxito",
+    "cancel": "Cancelar",
+    "save": "Guardar",
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "view": "Ver",
+    "close": "Cerrar",
+    "required": "*",
+    "noData": "No hay datos disponibles",
+    "actions": "Acciones",
+    "showingEntries": "Mostrando {start} a {end} de {total} entradas",
+    "previous": "Anterior",
+    "next": "Siguiente"
+  },
+  "modelViewer": "Visor de modelo 3D",
+  "copyright": "Todos los derechos reservados."
+}
