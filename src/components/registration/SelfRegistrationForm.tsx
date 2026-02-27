@@ -113,6 +113,7 @@ export default function SelfRegistrationForm() {
 
             if (!response.ok) {
                 const resData = await response.json();
+                setError(resData.message)
                 throw new Error(resData.message || "Failed to submit registration");
             }
 
@@ -120,7 +121,7 @@ export default function SelfRegistrationForm() {
             navigate("/success");
         } catch (err: unknown) {
             console.error(err);
-            setError("Something went wrong. Please try again.");
+            // setError("Something went wrong. Please try again.");
         } finally {
             setSubmitting(false);
         }
